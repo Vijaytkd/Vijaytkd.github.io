@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/transtyle.css" type="text/css">
+    <script src="transaction1.js"></script>
+</head>
+<body>
+    <div class="transbox">
+        <h1>TRANSACTION</h1>
+        <form>
+            <input type="number" id="acno" name="acno" placeholder="Account Number">
+            <input type="number" id="pin" name="pin" placeholder="Pin">
+            <input type="number" id="amt" name="amt" placeholder="Amount">
+            <button type="button" onclick="Bank.deposit()" class="b" >Deposit</button>
+            <button type="button" onclick="Bank.withdraw()" class="b" >Withdraw</button>
+            <a href="userdetails.html"><input class="a" type="button" value="Back"></a>
+        </form>
+    </div>
+</body>
+</html>
